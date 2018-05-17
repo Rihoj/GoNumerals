@@ -2,6 +2,7 @@ package convert
 
 import "fmt"
 
+// Binary converts an decimal integer into binary
 func Binary(i int) {
-	fmt.Printf("Dec-Bin: %d - %b \n", i, i)
+	Print("Dec-Bin", fmt.Sprintf("%d", i), fmt.Sprintf("%b", i))
 }

@@ -2,6 +2,7 @@ package convert
 
 import "fmt"
 
+// Decimal converts a decimal integer to decimal
 func Decimal(i int) {
-	fmt.Printf("Dec-Dec: %d - %d \n", i, i)
+	Print("Dec-Dec", fmt.Sprintf("%d", i), fmt.Sprintf("%d", i))
 }

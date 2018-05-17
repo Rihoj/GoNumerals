@@ -2,6 +2,7 @@ package convert
 
 import "fmt"
 
+// Octal converts a decimal integer to octal
 func Octal(i int) {
-	fmt.Printf("Dec-Oct: %d - %o \n", i, i)
+	Print("Dec-Oct", fmt.Sprintf("%d", i), fmt.Sprintf("%o", i))
 }

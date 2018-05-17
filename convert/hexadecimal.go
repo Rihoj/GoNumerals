@@ -2,6 +2,7 @@ package convert
 
 import "fmt"
 
+// Hexadecimal converts a decimal integer to Hexadecimal
 func Hexadecimal(i int) {
-	fmt.Printf("Dec-Hex: %d - %x \n", i, i)
+	Print("Dec-Hex", fmt.Sprintf("%d", i), fmt.Sprintf("%x", i))
 }
