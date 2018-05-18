@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	for i := 0; i < 17; i++ {
+	for i := 0; i <= 100; i++ {
 		convert.All(i)
 	}
 }
